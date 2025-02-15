@@ -6,6 +6,6 @@ def generate_text(prompt: str):
     return response.json()
 
 if __name__ == "__main__":
-    prompt = "Translate English to German: Hello, how are you today?"
+    prompt = "Translate English to German: Hello, how are you today"
     result = generate_text(prompt)
     print(result)
